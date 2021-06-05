@@ -7,8 +7,8 @@ export default (app: Router) => {
 
 	route.get('/kakao', (req: Request, res: Response, next: NextFunction) => {
 		const kakao = {
-			clientID: 'e38ed3684570397a6c1ece130d9c5de1',
-			clientSecret: '6RFgiZV6uMEd0M0rnNZdiSXBr2Tw9Hmu',
+			clientID: 'not',
+			clientSecret: 'not',
 			redirectUri: 'http://localhost:5000/auth/kakao/callback',
 		}
 
